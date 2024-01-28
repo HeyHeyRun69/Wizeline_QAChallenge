@@ -8,15 +8,15 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
-    public get txtUsername() {
+    private get txtUsername() {
         return $('~Username input field');
     }
 
-    public get txtPwd() {
+    private get txtPwd() {
         return $('~Password input field');
     }
 
-    public get btnLogin() {
+    private get btnLogin() {
         return $('~Login button');
     }
 
