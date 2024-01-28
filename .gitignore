@@ -1,0 +1,4 @@
+node_modules/
+app/
+chromedriver-mobile/
+.env
