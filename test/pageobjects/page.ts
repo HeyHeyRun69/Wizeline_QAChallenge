@@ -13,7 +13,7 @@ export default class Page {
     }
 
     /**
-     * 
+     * Opens hamburger menu then selects option
      * @param option Option to pick in the hamburger menu
      * @see
      *  List of available options:

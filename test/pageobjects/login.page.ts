@@ -1,8 +1,8 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
+import Page from './page';
 
 /**
- * Class containing elements and methods for the Login page
+ * Class containing elements and methods for the Login screen
  */
 class LoginPage extends Page {
     /**
@@ -34,4 +34,4 @@ class LoginPage extends Page {
     }
 }
 
-export default new LoginPage();
+export const loginPage = new LoginPage();

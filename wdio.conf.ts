@@ -153,7 +153,6 @@ export const config: Options.Testrunner = {
             if(passed) {
                 return;
             }
-    
             browser.saveScreenshot('assertionError_' + assertion.error?.message + '.png');
         }
     },

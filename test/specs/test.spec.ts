@@ -1,4 +1,12 @@
-import loginPage from "../pageobjects/login.page.ts";
+import {
+    loginPage,
+    productsPage,
+} from '../pageobjects/index'
+
+/**
+ * @author Aaron Saucedo
+ * @description Script to validate login is successful
+ */
 
 describe('My Demo App - Login', () => {
     it('Navigate to login screen', async () => {
@@ -8,5 +16,8 @@ describe('My Demo App - Login', () => {
     it('Log into the app', async () => {
         await loginPage.login(process.env.USER_NAME!, process.env.PASSWORD!);
     })
-})
 
+    it('Login successful', async () => {
+        await productsPage.isHeaderDisplayed();
+    })
+})

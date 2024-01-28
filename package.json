@@ -1,6 +1,5 @@
 {
   "name": "mobilechallenge",
-  "type": "module",
   "devDependencies": {
     "@badisi/wdio-harness": "^3.0.4",
     "@testing-library/webdriverio": "^3.2.1",
