@@ -13,10 +13,8 @@ class ProductsPage extends Page {
     }
 
     /**
-     * Function to log into the application
-     * @param {string} username The username that will be used
-     * @param {string} password The password for the user
-     * @example await PO.login('Guts', 'Miura')
+     * Function to wait for the Product header to exist and
+     * validate that it is displayed
      */
     public async isHeaderDisplayed() {
         await this.header.waitForExist();
