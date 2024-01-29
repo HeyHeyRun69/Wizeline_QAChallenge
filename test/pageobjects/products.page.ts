@@ -16,7 +16,7 @@ class ProductsPage extends Page {
      * Function to wait for the Product header to exist and
      * validate that it is displayed
      */
-    public async isHeaderDisplayed() {
+    public async checkForHeader() {
         await this.header.waitForExist();
         expect(await this.header.isDisplayed()).toBe(true);
     }

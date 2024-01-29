@@ -18,6 +18,6 @@ describe('My Demo App - Login', () => {
     })
 
     it('Login successful', async () => {
-        await productsPage.isHeaderDisplayed();
+        await productsPage.checkForHeader();
     })
 })
